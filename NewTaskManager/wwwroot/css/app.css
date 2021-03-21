@@ -1,0 +1,94 @@
+html, 
+body {
+    height:100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/img/life.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+body{
+    
+    background-color: #f01b0c;
+}
+
+.container-fluid{
+    height:100%;
+    padding-right: 0;
+}
+
+.content{
+    display:flex;
+    height: 100%;
+}
+
+h3{
+    color: #45838f;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    height: 100%;
+}
+
+#list{
+    flex: 2;
+}
+
+#list h3{
+    color: rgb(1, 82, 28);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#capture{
+    flex: 1;
+    background-color: #fafafa;
+    padding: 20px;
+    box-shadow: -1px 0 10px rgb(112,112,112);
+
+}
+
+.control label{
+    font-size: 14px;
+    color: #a0a0a0;
+}
+
+.control input{
+    font-size: 18px;
+}
+
+#iImportant {
+    font-size: 30px;
+}
+
+#iImportant.fas{
+    color:red;
+}
+
+#iImportant.far{
+    color:blue;
+}
+/* create new task */
+.imp-task{
+    color: gold;
+}
+
+.important-container{
+    padding: 20px;
+    box-shadow: -1px 0 10px rgb(112,112,112);
+}
+
+.fa-trash-alt{
+    pointer-events: none;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 1%;
+}
